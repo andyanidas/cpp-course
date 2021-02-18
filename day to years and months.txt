@@ -1,0 +1,20 @@
+#include<iostream>;
+
+using namespace std;
+
+int main(){
+	int x, y;
+	bool check= true;
+	cout<<"Enter the number of days: ";
+	cin>>y;
+	cout<<"1) years"<<endl<<"2) months"<<endl<<"Convert to: ";
+	cin>>x;
+	if(x==check){
+	    cout<<"Converting "<<y<<" days to years"<<endl<<y<<" is "<<y/365<<" year";
+	}else{
+	    cout<<"Converting "<<y<<" days to months"<<endl<<y<<" is "<<y/30.417<<" months";
+	    }
+	
+
+	return 0;
+}
